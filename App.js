@@ -6,12 +6,14 @@ import {
   StatusBar,
 } from 'react-native';
 
+import FirstPropsScreen from './screens/FirstPropsScreen';
+
 const App = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView style={{flex: 1}}>
-        <Text>Hello React Native</Text>
+        <FirstPropsScreen />
       </SafeAreaView>
     </>
   );
