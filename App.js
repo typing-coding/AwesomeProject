@@ -9,6 +9,8 @@ import {
 import FirstPropsScreen from './screens/FirstPropsScreen';
 import LotsOfGreetings from './screens/SecondPropsScreen';
 
+import FirstStateScreen from './screens/FirstStateScreen';
+
 const App = () => {
   return (
     <>
@@ -16,6 +18,7 @@ const App = () => {
       <SafeAreaView style={{flex: 1}}>
         <FirstPropsScreen />
         <LotsOfGreetings />
+        <FirstStateScreen />
       </SafeAreaView>
     </>
   );
