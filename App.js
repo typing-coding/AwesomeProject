@@ -7,6 +7,7 @@ import {
 } from 'react-native';
 
 import FirstPropsScreen from './screens/FirstPropsScreen';
+import LotsOfGreetings from './screens/SecondPropsScreen';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <StatusBar barStyle="dark-content" />
       <SafeAreaView style={{flex: 1}}>
         <FirstPropsScreen />
+        <LotsOfGreetings />
       </SafeAreaView>
     </>
   );
