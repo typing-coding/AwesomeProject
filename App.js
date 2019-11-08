@@ -10,7 +10,7 @@ import FirstPropsScreen from './screens/FirstPropsScreen';
 import LotsOfGreetings from './screens/SecondPropsScreen';
 
 import FirstStateScreen from './screens/FirstStateScreen';
-
+import LotsOfStyles from './screens/StyleScreen';
 const App = () => {
   return (
     <>
@@ -19,6 +19,7 @@ const App = () => {
         <FirstPropsScreen />
         <LotsOfGreetings />
         <FirstStateScreen />
+        <LotsOfStyles />
       </SafeAreaView>
     </>
   );
