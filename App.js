@@ -11,18 +11,21 @@ import LotsOfGreetings from './screens/SecondPropsScreen';
 
 import FirstStateScreen from './screens/FirstStateScreen';
 import LotsOfStyles from './screens/StyleScreen';
-import FixedDimensionsBasics from './screens/HeigthAndWidthScreen'
+import {FixedDimensionsBasics, FlexDimensionsBasics} from './screens/HeigthAndWidthScreen'
 
 const App = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView style={{flex: 1}}>
+        {/* 
         <FirstPropsScreen />
         <LotsOfGreetings />
         <FirstStateScreen />
         <LotsOfStyles />
-        <FixedDimensionsBasics />
+        <FixedDimensionsBasics /> 
+        */}
+        <FlexDimensionsBasics />
       </SafeAreaView>
     </>
   );
