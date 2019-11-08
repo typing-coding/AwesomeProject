@@ -11,6 +11,8 @@ import LotsOfGreetings from './screens/SecondPropsScreen';
 
 import FirstStateScreen from './screens/FirstStateScreen';
 import LotsOfStyles from './screens/StyleScreen';
+import FixedDimensionsBasics from './screens/HeigthAndWidthScreen'
+
 const App = () => {
   return (
     <>
@@ -20,6 +22,7 @@ const App = () => {
         <LotsOfGreetings />
         <FirstStateScreen />
         <LotsOfStyles />
+        <FixedDimensionsBasics />
       </SafeAreaView>
     </>
   );
